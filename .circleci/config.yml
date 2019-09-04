@@ -4,7 +4,5 @@ jobs:
     docker:
       - image: circleci/openjdk:8u171
     steps:
-      - run: mkdir /build
-      - run: cd /build
       - run: git clone https://github.com/maboloshi/mipay-extract.git
       - run: echo "A first hello"
