@@ -1,5 +1,4 @@
 # Xiaomi Wallet for EU ROM
-[![Build Status](https://travis-ci.org/csrutil/MiWallet.svg?branch=master)](https://travis-ci.org/csrutil/MiWallet)
 
 # Magisk Installer
 
