@@ -5,4 +5,7 @@ jobs:
       - image: circleci/openjdk:8u171
     steps:
       - run: git clone https://github.com/maboloshi/mipay-extract.git
+      - run: cd mipay-extract
+      - run: wget http://bigota.d.miui.com/V10.4.4.0.QFKCNXM/miui_RAPHAEL_V10.4.4.0.QFKCNXM_a9e317ec5f_10.0.zip
+      - run: ls -al
       - run: echo "A first hello"
